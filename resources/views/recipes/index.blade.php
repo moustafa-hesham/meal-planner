@@ -38,7 +38,7 @@
                     <div class="recipe-card">
 
                         <div class="recipe-media">
-                            <img src="{{ $food['image'] }}" alt="{{ $food['title'] }}">
+                            <img src="{{ $food['image_url'] }}" alt="{{ $food['title'] }}">
 
                             <span class="recipe-pill">
                                 {{ $food['category'] }}
